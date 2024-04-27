@@ -1,0 +1,77 @@
+// 8. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+//let p1 = parseFloat(prompt('Digite o valor do primeiro produto: '))
+//let p2 = parseFloat(prompt('Digite o valor do segundo produto: '))
+//let p3 = parseFloat(prompt('Digite o valor do terceiro produto: '))
+
+//if(p1<p2&&p1<p3){
+    //console.log('O primeiro produto é mais barato')
+//}
+//else if (p2<p1&&p2<p3){
+    //console.log('O segundo produto é mais barato')
+//}
+//else if (p3<p1&&p3<p2){
+   //console.log('O terceiro produto é mais barato')
+//}
+//else {
+    //console.log('Todos os produtos tem valores iguais')
+//}
+//11.As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+//salários até R$ 280,00 (incluindo) : aumento de 20%
+//salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+//salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+//salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+//o salário antes do reajuste;
+//o percentual de aumento aplicado;
+//o valor do aumento;
+//o novo salário, após o aumento.
+//let s = parseFloat(prompt('Digite o quanto você ganha: '))
+//if (s<=280){
+    //let p = 20
+    //let vp = s*p/100
+    //let ns = s+vp
+    //console.log (`Seu salário antes do reajuste é de R$${s}`)
+    //console.log (`Seu percentual de bônus é de ${p}`)
+    //console.log (`O valor do bônus é de ${vp}`)
+    //console.log (`Seu novo salário é de R$${ns}`)
+//}
+//else if (s<=700){
+    //let p = 15
+    //let vp = s*p/100
+    //let ns = s+vp
+    //console.log (`Seu salário antes do reajuste é de R$${s}`)
+    //console.log (`Seu percentual de bônus é de ${p}`)
+    //console.log (`O valor do bônus é de ${vp}`)
+    //console.log (`Seu novo salário é de R$${ns}`)
+//}
+//else if (s<=1500){
+    //let p = 10
+    //let vp = s*p/100
+    //let ns = s+vp
+    //console.log (`Seu salário antes do reajuste é de R$${s}`)
+    //console.log (`Seu percentual de bônus é de ${p}`)
+    //console.log (`O valor do bônus é de ${vp}`)
+    //console.log (`Seu novo salário é de R$${ns}`)
+//}
+//else {
+    //let p = 5
+    //let vp = s*p/100
+    //let ns = s+vp
+    //console.log (`Seu salário antes do reajuste é de R$${s}`)
+    //console.log (`Seu percentual de bônus é de ${p}`)
+    //console.log (`O valor do bônus é de ${vp}`)
+    //console.log (`Seu novo salário é de R$${ns}`)
+//}
+//13.Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal utilizando as seguintes fórmulas: Para homens: (72.7*h)-58 e para mulheres: (62.1*h)-44.7.
+//let h = parseFloat(prompt('Digite sua altura: '))
+//let g = prompt('Digite seu gênero: ')
+//if (g=="masculino"){
+    //let p = (72.7*h)-58
+    //console.log(`O seu peso recomendo é de ${p}Kg`)
+//}
+//else if (g=="feminino"){
+    //let p = (62.1*h)-44.7
+    //console.log(`O seu peso recomendado é de ${p}kg`)
+//}
+//else{
+    //console.log('O que você digitou não condiz com o programa, escolha entre feminino e masculino')
+//}
