@@ -1,0 +1,94 @@
+// Váriaveis 
+// let texto = "String"
+// let boleana = true e false 
+// let inteiro = 21
+// let decimal = 12.5
+// let lista = []
+// let objeto = {}
+
+// let nome = 'JS'
+// console.log(nome)
+// console.log(nome.length)
+// let comp = 10 > 9 
+// console.log(comp)
+
+//let x = 10
+// let y = 5
+// let z = 2
+// if (x > y && z > y)
+// {
+//     console.log('Estou no laço');
+// }
+// else if (x > y || z > y)
+// {
+//     console.log('Estou no laço');
+// }
+// for (let index = 0; index < 10; index++) 
+// {
+//     console.log(x*index)
+// }
+
+//While
+//let x = 0
+//while (x<100000)
+{
+    console.log(x)
+}
+// let usuario = 'Polliana'
+// let senha = '2345678'
+// let tentativa = 0
+// while(true){
+//     let user = prompt('Digite seu nome de usuário: ')
+//     let password = prompt('Digite sua senha: ')
+//     if (user == usuario && password == senha){
+//         console.log('Você está logado')
+//         break
+// }else{
+//         console.log('Usuário ou senha incorretos, tente novamente');
+//         tentativa++
+//         if(tentativa > 3)
+//         {
+//             console.log('Seu acesso foi bloqueado')
+//             break
+//         }
+// }
+// }
+//Questão 01) Escreva um programa que pede para dois usuários informem sua jogada, sendo elas, 1 tesoura, 2 pedra, 3 papel. Compare as jogadas dos dois usuarios e diga quem ganhou.  
+let tesoura = '1'
+let pedra = '2' 
+let papel = '3' 
+while(true){
+    console.log('Bem vindo ao jogo de pedra, papel e tesoura! Para jogar você deve colocar 1 para tesoura, 2 para pedra e 3 para papel. Boa sorte! ')
+    let u1 = prompt('Usuário 1 digite sua jogada: ')
+    let u2 = prompt('Usuário 2 digite sua jogada: ')
+    if (u1 == u2){
+        console.log('Os usuário empataram')
+    }
+    else if (u1 == '1' && u2 == '2'){
+        console.log('Pedra esmaga tesoura')
+        console.log('Usuário 2 ganha')
+    }
+    else if (u1 == '2' && u2 == '1'){
+        console.log('Pedra esmaga tesoura')
+        console.log('Usuário 1 ganha')
+    }
+    else if (u1 == '2' && u2 == '3'){
+        console.log('Papel cobre pedra')
+        console.log('Usuário 2 ganha')
+    }
+    else if (u1 == '3' && u2 == '2'){
+        console.log('Papel cobre pedra')
+        console.log('Usuário 1 ganha')
+    }
+    else if (u1 == '1' && u2 == '3'){
+        console.log('Tesoura corta papel')
+        console.log('Usuário 1 ganha')
+    }
+    else if (u1 == '3' && u2 == '1'){
+        console.log('Papel cobre pedra')
+        console.log('Usuário 2 ganha')
+    }
+     else{
+        console.log('Houve algo de errado, insira os valores correspondentes.')
+    }
+}
