@@ -57,38 +57,43 @@
 let tesoura = '1'
 let pedra = '2' 
 let papel = '3' 
+let n1 = prompt('Usuário um digite seu nick: ')
+let n2 = prompt('Usuário dois digite seu nick: ')
 while(true){
-    console.log('Bem vindo ao jogo de pedra, papel e tesoura! Para jogar você deve colocar 1 para tesoura, 2 para pedra e 3 para papel. Boa sorte! ')
-    let u1 = prompt('Usuário 1 digite sua jogada: ')
-    let u2 = prompt('Usuário 2 digite sua jogada: ')
+    console.log('Bem vindo ao jogo de pedra, papel e tesoura!')
+    console.log('Para jogar você deve colocar 1 para tesoura, 2 para pedra e 3 para papel.') 
+    console.log('Boa sorte e que vença o melhor!')
+    let u1 = prompt(`${n1} um digite sua jogada: `)
+    let u2 = prompt(`${n2} dois digite sua jogada: `)
     if (u1 == u2){
-        console.log('Os usuário empataram')
+        console.log(`${n1} e ${n2} empataram`)
     }
     else if (u1 == '1' && u2 == '2'){
         console.log('Pedra esmaga tesoura')
-        console.log('Usuário 2 ganha')
+        console.log(`${n2} ganhou`)
     }
     else if (u1 == '2' && u2 == '1'){
         console.log('Pedra esmaga tesoura')
-        console.log('Usuário 1 ganha')
+        console.log(`${n1} ganhou`)
     }
     else if (u1 == '2' && u2 == '3'){
         console.log('Papel cobre pedra')
-        console.log('Usuário 2 ganha')
+        console.log(`${n2} ganhou`)
     }
     else if (u1 == '3' && u2 == '2'){
         console.log('Papel cobre pedra')
-        console.log('Usuário 1 ganha')
+        console.log(`${n1} ganhou`)
     }
     else if (u1 == '1' && u2 == '3'){
         console.log('Tesoura corta papel')
-        console.log('Usuário 1 ganha')
+        console.log(`${n1} ganhou`)
     }
     else if (u1 == '3' && u2 == '1'){
         console.log('Papel cobre pedra')
-        console.log('Usuário 2 ganha')
+        console.log(`${n2} ganhou`)
     }
      else{
-        console.log('Houve algo de errado, insira os valores correspondentes.')
+        console.log('Ops,houve algo de errado.')
+        console.log('Insira os valores correspondentes.')
     }
 }
